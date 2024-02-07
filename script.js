@@ -308,12 +308,12 @@ $(document).ready(function () {
   });
 
   $("#conversion-rate-best").on("change keyup paste", function () {
-    bestcRate = $(this).val() ? $(this).val() : 0;
+    bestCRate = $(this).val() ? $(this).val() : 0;
     reCalculateValues();
   });
 
   $("#conversion-rate-best-mobile").on("change keyup paste", function () {
-    bestcRate = $(this).val() ? $(this).val() : 0;
+    bestCRate = $(this).val() ? $(this).val() : 0;
     reCalculateValues();
   });
 
